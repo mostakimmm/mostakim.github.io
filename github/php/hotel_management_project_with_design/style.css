@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 20px;
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #999;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+input[type=text], input[type=email], input[type=date], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+input[type=submit] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #218838;
+}
